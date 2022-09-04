@@ -3,7 +3,7 @@ import TextareaAutosize from 'react-textarea-autosize';
 import './text-filed.css';
 
 export default function TextFiled(props) {
-  const { name, value, onChange, placeholder, className, deleteList, handleCancel } = props;
+  const { name, value, onChange, placeholder, className, deleteList, handleCancel, onEnter } = props;
   return (
     <div className='list-title-edit'>
       <TextareaAutosize
@@ -16,6 +16,8 @@ export default function TextFiled(props) {
           width: deleteList ? 220 : 245,
           marginBottom: 8
         }}
+        onKeyDown={onEnter}
+        autoFocus={true}
       />
       {props.deleteList && (<>
         <ion-icon name="trash-outline" onClick={deleteList}></ion-icon>
