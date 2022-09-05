@@ -4,16 +4,14 @@
 
 .edit-button {
   cursor: pointer;
-  /* box-shadow: 0 1px 0 0 #3f6f21; */
+  box-shadow: 0 1px 0 0 #3f6f21;
   width: fit-content;
   margin: 0 5px 10px;
   padding: 6px 12px;
   border-radius: 5px;
   color: white;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 700;
   outline: none;
-  background: rgb(75, 191, 107);
 }
 
 .edit-button:hover {

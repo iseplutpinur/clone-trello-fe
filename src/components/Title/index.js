@@ -6,5 +6,5 @@ export default function Title({ children, onClick }) {
     <div onClick={onClick} className='list-title'>
       {children}
     </div>
-  )
+  );
 }

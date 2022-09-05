@@ -12,9 +12,8 @@
   display: flex;
   align-items: center;
   min-height: 32px;
-  padding: 5px 18px;
-  transition: background-color 85ms ease-in,
-    opacity 40ms ease-in,
+  padding: 5px 10px;
+  transition: background-color 85ms ease-in, opacity 40ms ease-in,
     border-color 85ms ease-in;
   height: fit-content;
 }
